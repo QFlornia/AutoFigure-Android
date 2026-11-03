@@ -1,0 +1,3 @@
+当前提供的是 Android Studio 工程源码，不是已经编译的 APK 二进制文件。
+原因：生成环境没有 Android SDK、Gradle、Android Build Tools，且网络 DNS 不可用，无法安装编译工具链。
+可用仓库内 .github/workflows/build-android-apk.yml 在 GitHub Actions 运行 assembleDebug 并下载 app-debug.apk。
